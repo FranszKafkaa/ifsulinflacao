@@ -31,3 +31,15 @@ void readfile() {
     if (line)
         free(line);
 }
+
+float calculateInflation(int anoInicial, int anoFinal) {
+    float inflacao = 0;
+
+    printf("%f\n", maxData[anoFinal]);
+    printf("\n");
+    printf("%f\n", maxData[anoFinal]);
+    
+    inflacao = ((maxData[anoFinal] - maxData[anoInicial]) / maxData[anoInicial]) * 100;
+
+    return inflacao;
+}
