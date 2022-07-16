@@ -2,5 +2,6 @@
 
 
 int main(){
-    show_text("Bolo de chocolate");
+
+    readfile();
 }
