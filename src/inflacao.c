@@ -35,5 +35,6 @@ float calculateInflation(int anoFinal, int anoInicial) {
     
     inflacao = ((maxData[anoFinal] - maxData[anoInicial]) / maxData[anoInicial]);
 
+
     return inflacao;
 }
