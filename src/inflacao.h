@@ -10,4 +10,9 @@
 
 void readfile();
 
+
+float calculateInflation(int anoInicial, int anoFinal);
+
+float calculaPreco(float preco, int anoInicial, int anoFinal);
+
 #endif
