@@ -6,6 +6,6 @@
 * Como Rodar o projeto no linux 
     * Basta rodar o comando abaixo 
 ````shell
-    $ make all
+    make all
 ````
 
